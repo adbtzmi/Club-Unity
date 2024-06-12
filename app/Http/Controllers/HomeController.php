@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index(): View
     {
-        return view('home');
+        return view('student.index');
     } 
   
     /**
@@ -44,6 +44,6 @@ class HomeController extends Controller
      */
     public function managerHome(): View
     {
-        return view('managerHome');
+        return view('clubmanager.index');
     }
 }

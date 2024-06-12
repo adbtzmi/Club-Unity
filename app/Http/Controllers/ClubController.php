@@ -56,4 +56,10 @@ class ClubController extends Controller
         $club->delete();
         return redirect()->route('admin.club.list')->with('success', 'Club deleted successfully.');
     }
+
+    public function show()
+    {
+        $clubs = Club::all();
+        return view('student.index', compact('clubs'));
+    }
 }

@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <h2>You are a Club Admin.</h2>
+                    <h2>You are a Club Manager.</h2>
                 </div>
             </div>
         </div>
