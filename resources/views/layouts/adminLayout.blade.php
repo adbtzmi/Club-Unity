@@ -105,7 +105,7 @@
             <a href="">User</a>
             <a href="{{ route('admin.club.list') }}">Club</a>
             <a href="">Application</a>
-            <a href="">Event</a>
+            <a href="{{ route('admin.event.list') }}">Event</a>
           </div>
         
         <div class="content">

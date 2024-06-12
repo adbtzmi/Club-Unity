@@ -14,9 +14,9 @@ class ClubController extends Controller
     }
 
     public function add()
-{
-    return view('admin.club.add');
-}
+    {
+        return view('admin.club.add');
+    }
 
     public function store(Request $request)
     {

@@ -20,18 +20,24 @@
             <br>
             <hr>
             <br>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                @foreach($clubs as $club)
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="{{ $club->image }}" class="card-img-top" alt="{{ $club->name }}">
-                            <div class="card-body">
-                                <h5 class="card-title">{{ $club->name }}</h5>
-                                <p class="card-text">{{ $club->description }}</p>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
+            <div class="title-box rounded" style="margin-top: 20px;">
+                <h5 class="title-left">List of Clubs</h5>
+                <br>
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Club Name</th>
+                                <th scope="col">Club ID</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Date Created</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
